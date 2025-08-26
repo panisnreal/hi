@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Gallery - Guetto Pan Magazine</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Libre+Baskerville:wght@700&family=DM+Sans&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'DM Sans', sans-serif;
+      color: #616a45;
+      background-color: #fff;
+    }
+
+    header {
+      background-color: #3b3b2f;
+      padding: 2rem;
+      text-align: center;
+      color: #fff;
+    }
+
+    header h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 3rem;
+      margin: 0;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      background-color: #f0f0e8;
+      padding: 1rem 0;
+      gap: 2rem;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #616a45;
+      font-family: 'Libre Baskerville', serif;
+      font-size: 1.2rem;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #3b3b2f;
+    }
+
+    main {
+      max-width: 1000px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1.5rem;
+    }
+
+    main img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 2rem;
+      padding: 1rem 0;
+    }
+
+    footer img {
+      width: 50px;
+      height: auto;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Guetto Pan Magazine</h1>
+  </header>
+
+  <nav>
+    <a href="home.html">Home</a>
+    <a href="stories.html">Stories</a>
+    <a href="songs.html">Songs</a>
+    <a href="gallery.html">Gallery</a>
+  </nav>
+
+  <main>
+    <img src="assets/gallery/img1.jpg" alt="Gallery 1">
+    <img src="assets/gallery/img2.jpg" alt="Gallery 2">
+    <img src="assets/gallery/img3.jpg" alt="Gallery 3">
+    <img src="assets/gallery/img4.jpg" alt="Gallery 4">
+    <img src="assets/gallery/img5.jpg" alt="Gallery 5">
+    <img src="assets/gallery/img6.jpg" alt="Gallery 6">
+    <img src="assets/gallery/img7.jpg" alt="Gallery 7">
+    <img src="assets/gallery/img8.jpg" alt="Gallery 8">
+  </main>
+
+  <footer>
+    <img src="assets/duck.png" alt="Copyright Duck">
+  </footer>
+
+</body>
+</html>
